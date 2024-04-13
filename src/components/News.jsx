@@ -20,7 +20,7 @@ const News = (props) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
 
-  const updateNews = async () => {
+ const updateNews = async () => {
     props.setProgress(10);
     const url = `https://newsapi.org/v2/top-headlines?country=${
       props.country
@@ -28,14 +28,22 @@ const News = (props) => {
       import.meta.env.VITE_API_KEY
     }&page=${page}&pageSize=${props.pageSize}`;
     setLoading(true);
-    let data = await fetch(url);
-    props.setProgress(30);
-    let parsedData = await data.json();
-    props.setProgress(70);
-    setArticles(parsedData.articles);
-    setTotalResults(parsedData.totalResults);
-    setLoading(false);
-    props.setProgress(100);
+    try {
+      let data = await fetch(url);
+      if (!data.ok) {
+        throw new Error("Failed to fetch");
+      }
+      props.setProgress(30);
+      let parsedData = await data.json();
+      props.setProgress(70);
+      setArticles(parsedData.articles);
+      setTotalResults(parsedData.totalResults);
+      setLoading(false);
+      props.setProgress(100);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      // Handle error (e.g., show an error message to the user)
+    }
   };
 
   useEffect(() => {
