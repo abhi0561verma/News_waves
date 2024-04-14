@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 - 
 -  run the command npm start that will host this app to localhost:5173
 
-- Live preview: [https://drive.google.com/file/d/10dGctanR2s0gLTHuGlqn0hYk5VFvDqwS/view?usp=sharing](https://drive.google.com/file/d/1zFHHHb6WL6kFalb65uKN_HAu_hHY-Q06/view?usp=drive_link)
+- Live preview: https://drive.google.com/file/d/1eRlgFel19j1JV4Wp7XveVP1gb7Bo5FyB/view?usp=drive_link
 - 
 
 
