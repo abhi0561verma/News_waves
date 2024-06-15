@@ -11,6 +11,8 @@ Currently, two official plugins are available:
 
 - Live preview: https://drive.google.com/file/d/1eRlgFel19j1JV4Wp7XveVP1gb7Bo5FyB/view?usp=drive_link
 - 
+https://github.com/abhi0561verma/News_waves/assets/124080024/725e8826-cd95-4403-8a15-adc8293f2bdb
+
 
 
 
