@@ -1,3 +1,5 @@
+
+https://github.com/abhi0561verma/News_waves/assets/124080024/015f8030-4a2b-45a4-a0df-4e1d9216391c
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -9,9 +11,12 @@ Currently, two official plugins are available:
 - 
 -  run the command npm start that will host this app to localhost:5173
 
-- Live preview: https://drive.google.com/file/d/1eRlgFel19j1JV4Wp7XveVP1gb7Bo5FyB/view?usp=drive_link
+- Uploading News_waves - Get your daily dose of news free! and 3 more pages - Personal - Microsoft_ Edge 2024-06-22 11-45-50 (online-video-cutter.com) (1) (1).mp4…
+
+
+
 - 
-https://github.com/abhi0561verma/News_waves/assets/124080024/725e8826-cd95-4403-8a15-adc8293f2bdb
+
 
 
 
